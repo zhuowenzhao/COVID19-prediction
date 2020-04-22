@@ -2,6 +2,7 @@
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \usepackage{cite}
+\usepackage{hyperref}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{lipsum}
@@ -18,19 +19,21 @@
 
 \begin{document}
 
-\title{Prediction of COVID-19 pandemic in the USA using recursive neural network}
+\title{Prediction of COVID-19 pandemic in the USA with recursive neural network}
 
-\author{\IEEEauthorblockN{Kieran Nehil-Puleo}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
+\author{
 \IEEEauthorblockN{Zhuowen Zhao}
 \IEEEauthorblockA{\textit{Department of Chemical Engineering and Materials science} \\
 \textit{Michigan State University}\\
 East Lansing, MI 48824, USA \\
 zhaozhuo@egr.msu.edu}
+\and
+\IEEEauthorblockN{Kieran Nehil-Puleo}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+
 }
 
 \maketitle
@@ -46,8 +49,9 @@ RNN, COVID-19, prediction
 
 
 \section{Introduction}
-
-\section{Radial function fitting}
+Data source is located at Github repository \url{https://github.com/CSSEGISandData/COVID-19}, originally from John Hopkins University Coronavirus Resource Center. 
+\section{Modified exponential function extrapolation}
+Compared prediction with \url{http://covid19.healthdata.org/united-states-of-america}
 
 \section{Prediction using LSTM RNN}
 
