@@ -2,4 +2,4 @@
 
 The Jupyter note book has to be run on a server with python3, Keras, and TensorFlow installed.
 
-Data source is located at Github repository https://github.com/CSSEGISandData/COVID-19, originally from Johns Hopkins University Coronavirus Resource Center.The data are updated on the daily basis.
+Data source is located at Github repository https://github.com/CSSEGISandData/COVID-19, originally from Johns Hopkins University Coronavirus Resource Center. Data are updated on the daily basis.
